@@ -8,14 +8,9 @@ $nome=$_POST['txtnome'];
 
 $sql= "UPDATE usu set codigo='{$dados}', nome='{$nome}' where codigo='{$dados}'";
 
-if(mysqli_query($conexao, $sql))
-{
-    echo "Dados Alterados com sucesso";
-}
-else
-{
-    echo "Não foi possível alterar os dados";
-}
+mysqli_query($conexao, $sql);
 
 mysqli_close($conexao);
+
+echo "Alterado com sucesso!!!";
 ?>
