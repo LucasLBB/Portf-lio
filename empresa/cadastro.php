@@ -3,15 +3,21 @@
 include "conexao.php";
 
 $nomecompleto = filter_input(INPUT_POST,"txtnomecompleto",FILTER_SANITIZE_STRING);
-$rg = filter_input(INPUT_POST,"txtrg",FILTER_SANITIZE_NUMBER_INT);
+$email = filter_input(INPUT_POST,"txtemail",FILTER_SANITIZE_EMAIL);   
 $cpf = filter_input(INPUT_POST,"txtcpf",FILTER_SANITIZE_NUMBER_INT);
 $datanascimento = filter_input(INPUT_POST,"txtdatanascimento",FILTER_SANITIZE_NUMBER_INT);
-$email = filter_input(INPUT_POST,"txtemail",FILTER_SANITIZE_EMAIL);   
 $senha = md5(filter_input(INPUT_POST,"txtsenha",FILTER_SANITIZE_URL));
 $cep = filter_input(INPUT_POST,"txtcep",FILTER_SANITIZE_NUMBER_INT);
+$cidadeselect = filter_input(INPUT_POST,"procurarcidade",FILTER_SANITIZE_STRING);
 $celular = filter_input(INPUT_POST,"txtcelular",FILTER_SANITIZE_NUMBER_INT);
+$estadoselect = filter_input(INPUT_POST,"procurar",FILTER_SANITIZE_STRING);
 
-$sql="INSERT INTO tbempresa1 (nomecompleto,rg,cpf,dt_nascimento,email,senha,cep,celular) VALUES ('$nomecompleto','$rg','$cpf','$datanascimento','$email','$senha','$cep','$celular')";
+$sql="INSERT INTO tbempresa1 (nomecompleto,cpf,dt_nascimento,email,senha,cep,celular,estado) 
+VALUES ('$nomecompleto','$cpf','$datanascimento','$email','$senha','$cep','$celular','$estadoselect')";
+
+$result = mysqli_query($conexao, $sql);
+
+$endresult = mysqli_close($conexao);
 
 if(md5(preg_match('/^[\w\d]{6,20}$/',$senha))) //Exige uma quantidade minima de 6 caracteres no campo senha e no máximo 20. 
 {
@@ -20,16 +26,6 @@ if(md5(preg_match('/^[\w\d]{6,20}$/',$senha))) //Exige uma quantidade minima de 
 else
 {
     echo "Não foi possível concluir o cadastro";
-    exit;
-}
-
-if(strlen($rg) == 9 ) //Vê quantos caracteres tem na variavel $rg e só aceita 9 caracteres.
-{
-    echo "RG Válido";
-}
-else
-{
-    echo "RG Inválido";
     exit;
 }
 
@@ -108,10 +104,6 @@ function validacpf($cpf)
     
     if(strlen($celular) == 11)
     {
-        mysqli_query($conexao, $sql);
-        
-        mysqli_close($conexao);
-        
         echo "Celular Válido";
     }
     else
@@ -119,6 +111,8 @@ function validacpf($cpf)
         echo "Celular Inválido";
     }
 
+    
+    
 
 
 
