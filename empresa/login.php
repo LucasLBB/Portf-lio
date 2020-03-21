@@ -2,33 +2,33 @@
 session_start();
 
 include "conexao.php";
-include "validalogin";
 
-if(empty($_POST['txtcpf']) || empty($_POST['txtsenha']))
+if(empty($_POST['txtemail']) || empty($_POST['txtsenha']))
 {
-    $_SESSION['Usuário não autenticado']=true;
-    echo "Usuário não autenticado";
-    header("Location:login.html");
+    $_SESSION['errorlogin']="Usuário não autenticado";
+    header('Location:login.html');
+    exit();
 } 
-    
-$cpf = mysqli_real_escape_string($conexao, $_POST['txtcpf']);
-$senha =  (md5(mysqli_real_escape_string($conexao, $_POST['txtsenha'])));
+    //Evita o SQL INJECTION
+$nome = mysqli_real_escape_string($conexao, $_POST['txtnome']);
+$email = mysqli_real_escape_string($conexao, $_POST['txtemail']);
+$senha =  mysqli_real_escape_string($conexao, $_POST['txtsenha']);
 
-$sql="SELECT cpf, id from tbempresa1 where cpf='{$cpf}' and senha='{$senha}'";
+$sql="SELECT id,nomecompleto,email FROM tbempresa1 WHERE nomecompleto='$nome' and email='$email' and senha= md5('{$senha}')";
 
 $result= mysqli_query($conexao, $sql);
 
 $row=mysqli_num_rows($result);
 
-if($row == 1)
+if ($row == 1)
 {
-    $_SESSION['txtcpf']=$cpf;
-    echo "Usuário autenticado";
-    header("Location:entra.php");
+    $_SESSION['nomecompleto']= $nome;
+    $_SESSION['email']= $email;
+    header('Location:privado.php'); 
+    exit();
 }
 else
-{
-    $_SESSION['Usuário não autenticado']=true;
-    echo "Usuário não autenticado";
-    header("Location:login.html");
+{ 
+    header('Location:login.html');
+    exit();
 }
