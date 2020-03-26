@@ -1,6 +1,6 @@
 # Portf-lio
 
-Criei este repositório para exibir um site que é de uma empresa fictícia chamada Eagle Security, o foco dela é em segurança de software, com isso a empresa possui um software(anti-vírus), que disponibiliza em seu site de forma gratuita.
+Criei este repositório para exibir um site que é de uma empresa fictícia chamada Eagle Security, o foco dela é em segurança de software, com isso a empresa possui um programa(anti-vírus), que disponibiliza em seu site de forma gratuita.
 
 <img src="https://media.giphy.com/media/xT8qBqdVZGkZIuIn9S/giphy.gif" width="300" height="300"/>
 
