@@ -1,8 +1,10 @@
 .hed
 {
     border-color:black;
-    width: 100%;
-    margin-top: -20px;
+    width: 101.2%;
+    margin-top: -18px;
+    margin-left: -10px;
+
 }
 
 #prin
@@ -26,7 +28,7 @@
 #logo
 {
     margin-left: 70px;
-    margin-top: -15px;
+    margin-top: -16px;
 }
 
 #but
@@ -183,7 +185,12 @@
     margin-top: -100px;
 }
 
+.header{
+    position: -webkit-sticky;
+    margin:-8px;
+    background-color:teal;
+}
+
 body{
-    background-color: rgb(102, 93, 93);
-    
+    background-color: violet;
 }
