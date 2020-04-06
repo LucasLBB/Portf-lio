@@ -19,4 +19,10 @@ A parte do front foi feita com html e css puros sem utilização de nenhum frame
 
 # Imagens
 
+## Cabeçalho
+
+![head](https://user-images.githubusercontent.com/60528933/78597439-ec305380-7823-11ea-8917-9a1c44b0e3e3.PNG)
+
+## Corpo
+
 
