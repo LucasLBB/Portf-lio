@@ -26,3 +26,10 @@ A parte do front foi feita com html e css puros sem utilização de nenhum frame
 ## Corpo
 
 ![s](https://user-images.githubusercontent.com/60528933/78597769-809ab600-7824-11ea-8e72-20908d0eb5f2.PNG)
+
+![Capturar](https://user-images.githubusercontent.com/60528933/78597951-c3f52480-7824-11ea-93ac-ef9f856d032d.PNG)
+
+![Capturar1](https://user-images.githubusercontent.com/60528933/78597956-c6577e80-7824-11ea-99ec-02f99f7be20a.PNG)
+
+![Capturar2](https://user-images.githubusercontent.com/60528933/78597960-c8214200-7824-11ea-8837-8396bc5433f7.PNG)
+
