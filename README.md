@@ -18,4 +18,5 @@ Ainda haverá várias atualizações no projeto como um todo(Principalmente no b
 A parte do front foi feita com html e css puros sem utilização de nenhum framework, no futuro estarei acrescentando o javascript para dar mais dinamismo no frontend, mas no momento ainda estou estudando esta tecnologia.
 
 # Imagens
- <img src="" width="300" height="300"/>
+
+
