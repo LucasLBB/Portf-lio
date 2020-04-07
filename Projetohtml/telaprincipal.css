@@ -1,43 +1,37 @@
-.hed
-{
+.hed{
     border-color:black;
     width: 101.2%;
     margin-top: -18px;
     margin-left: -10px;
+    }
 
-}
-
-#prin
-{
+#prin{
     color: darkred;
     text-align: center;
     margin-bottom: -140px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-}
+    }
 
-#texto
-{
+#texto{
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
     margin: 3px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
 
-#logo
-{
+#logo{
     margin-left: 72px;
     margin-top: -16px;
     max-width:200px;
     max-height:150px;
     width: auto;
     height: auto;
-}
+    }
 
-a.but:link
-{
+a.but:link{
     margin-left: 700px;
     font-size: 20px;
     position: absolute;
@@ -45,7 +39,7 @@ a.but:link
     left: 30px;
     text-decoration: none;
     color: black;
-}
+    }
     
 a.but:visited{
     text-decoration:none;
@@ -62,9 +56,7 @@ a.but:active{
     color:black;
     }
 
-
-a.do:link
-{
+a.do:link{
     margin-left: 850px;  
     font-size: 20px;
     position: absolute;
@@ -72,7 +64,7 @@ a.do:link
     left: -25px;
     text-decoration: none;
     color: black;
-}
+    }
 
 a.do:visited{
     text-decoration:none;
@@ -89,8 +81,7 @@ a.do:active{
     color:black;
     }
 
-a.cont:link
-{
+a.cont:link{
     margin-left: 900px;
     font-size: 20px;
     position: absolute;
@@ -98,7 +89,7 @@ a.cont:link
     left: 42px;
     text-decoration: none;
     color:black;
-}
+    }
 
 a.cont:visited{
     text-decoration:none;
@@ -115,8 +106,7 @@ a.cont:active{
     color:black;
     }
 
-a.cad:link
-{
+a.cad:link{
     margin-left: 1000px;
     font-size: 20px;
     position: absolute;
@@ -124,7 +114,7 @@ a.cad:link
     left: 50px;
     text-decoration: none;
     color: black;
-}
+    }
 
 a.cad:visited{
     text-decoration:none;
@@ -141,8 +131,7 @@ a.cad:active{
     color:black;
     }
 
-a.log:link
-{
+a.log:link{
     margin-left: 1100px;
     font-size: 20px;
     position: absolute;
@@ -150,7 +139,7 @@ a.log:link
     left: 87px;
     text-decoration: none;
     color: black;
-}
+    }
 
 a.log:visited{
     text-decoration:none;
@@ -167,8 +156,7 @@ a.log:active{
     color:black;
     }
 
-a.txt:link
-{
+a.txt:link{
     margin-left: 500px;  
     font-size: 20px;
     position: absolute;
@@ -176,7 +164,7 @@ a.txt:link
     left: 100px;
     text-decoration: none;
     color: black;
-}
+    }
 
 a.txt:visited{
     text-decoration:none;
@@ -193,8 +181,7 @@ a.txt:active{
     color:black;
     }
 
-#soft
-{
+#soft{
     color: darkred;
     text-align: center;
     margin-bottom: -140px;
@@ -202,38 +189,33 @@ a.txt:active{
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-}
+    }
 
-#software
-{
+#software{
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
     margin: 15px;
     padding: 120px;
-    font-family: sans-serif;
-    
-}
-#img{
+    font-family: sans-serif; 
+    }
 
+#img{
     margin-top: -570px;
     margin-left: 600px;
     margin-bottom: 200px;
+    }
 
-}
-
-#vagas
-{
+#vagas{
     color: darkred;
     text-align: center;
     margin-bottom: -140px;
     padding: 20px;
     font-size: 40pt;
     margin-top: -80px;
-}
+    }
 
-#vag
-{
+#vag{
     font-size: 20px;
     text-align: center;
     line-height: 30px;
@@ -241,7 +223,7 @@ a.txt:active{
     padding: 120px;
     font-family: sans-serif;
     margin-top: 20px;
-}
+    }
 
 .anl{
     color: darkred;
@@ -252,7 +234,7 @@ a.txt:active{
     margin-top: -180px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
 
 .anldesc{
     font-size: 17px;
@@ -262,7 +244,7 @@ a.txt:active{
     margin-top: -260px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
 
 .esf{
     color: darkred;
@@ -273,7 +255,7 @@ a.txt:active{
     margin-top: -250px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
 
 .esfdesc{
     font-size: 17px;
@@ -283,7 +265,7 @@ a.txt:active{
     margin-top: -260px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
 
 .qual{
     color: darkred;
@@ -293,7 +275,8 @@ a.txt:active{
     margin-top: -260px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
+
 .anli{
     font-size: 17px;
     text-align: justify;
@@ -302,7 +285,7 @@ a.txt:active{
     margin-top: -270px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
 
 .esfdesc2{
     font-size: 17px;
@@ -312,48 +295,43 @@ a.txt:active{
     margin-top: -270px;
     padding: 120px;
     font-family: sans-serif;
-}
+    }
 
-.mis
-{
+.mis{
     color: darkred;
     margin-left: 120px;
     margin-top: -80px;
-}
+    }
 
-#textomis
-{
+#textomis{
     font-size: 20px;
     text-align: justify;
     margin: 3px;
     padding: 120px;
     font-family: sans-serif;
     margin-top: -100px;
+    }
 
-}
-
-.vis
-{
+.vis{
     color: darkred;
     margin-left: 120px;
     margin-top: -80px; 
-}
+    }
 
-#textovis
-{
+#textovis{
     font-size: 20px;
     text-align: justify;
     margin: 3px;
     padding: 120px;
     font-family: sans-serif;
     margin-top: -100px;
-}
+    }
 
 .val{
     color: darkred;
     margin-left: 120px;
     margin-top: -80px; 
-}
+    }
 
 #textoval{
     font-size: 20px;
@@ -362,26 +340,25 @@ a.txt:active{
     padding: 120px;
     font-family: sans-serif;
     margin-top: -100px;
-}
+    }
 
 .header{
     position: -webkit-sticky;
     margin:-8px;
     background-color:darkred;
-}
+    }
 
 body{
     background-color:lightsteelblue;
-}
+    }
 
-a.email:link
-{
+a.email:link{
     position: absolute;
     margin-left: 10px;
     margin-top: -1px; 
     text-decoration: none;
     color: black;
-}
+    }
 
 a.email:visited{
     text-decoration:none;
@@ -402,26 +379,25 @@ a.email:active{
     position: absolute;
     margin-left: 0px; 
     margin-top: -15px;
-}
+    }
 
 .telefone{
     position: absolute;
     margin-left: 2px; 
     margin-top: -35px;
-}
+    }
 
 footer{
     position: -webkit-sticky;
     margin:-8px;
     width: 101.2%;
     background-color:darkred;
-}
+    }
 
-.hedfoot
-{
+.hedfoot{
     margin-top: -18px;
     margin-left: -10px;
     width: 99.8%;
     border-color:black;
     margin-top: -160px;
-}
+    }
