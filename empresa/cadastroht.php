@@ -21,17 +21,11 @@ include "conexao.php";
         <label for="txtemail">Email</label><br>
         <input type="text" size="25" name="txtemail" placeholder="exemplo@exemplo.com" required><br>
             
-        <label for="txtcpf">CPF</label><br>
-        <input type="text" size="25" name="txtcpf" placeholder="Somente números" required><br>
-            
         <label for="txtdatanascimento">Data de Nascimento</label><br>
         <input type="date" size="25" name="txtdatanascimento" required><br>
             
         <label for="txtsenha">Senha</label><br>
         <input type="password" size="25" name="txtsenha" pattern=".{6,20}" minlenght=6 maxlength="20" size="20" placeholder="mín:6 e max:20" required><br>
-       
-        <label for="txtcep">CEP</label><br>
-        <input type="text" size="25" name="txtcep" placeholder="Somente números" required><br>
 
         <label>Estado</label><br>
         <select name="procurar"><br>
@@ -44,9 +38,6 @@ include "conexao.php";
             } 
     ?>
             
-        <label for="txtcelular">Celular</label><br>
-        <input type="text" size="25" name="txtcelular" placeholder="Com DD e Somente números" required>
-            
         <p>
         <input type="submit" value="Cadastrar Usuário">
         </p>
@@ -54,3 +45,4 @@ include "conexao.php";
         </form>
     </body>
 </html>
+
