@@ -200,8 +200,17 @@ a.txt:active{
     font-family: sans-serif; 
     }
 
+.msgdow{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    margin: 15px;
+    padding: 120px;
+    font-family: sans-serif;       
+    }
+
 #img{
-    margin-top: -570px;
+    margin-top: -650px;
     margin-left: 600px;
     margin-bottom: 200px;
     }
@@ -212,7 +221,7 @@ a.txt:active{
     margin-bottom: -140px;
     padding: 20px;
     font-size: 40pt;
-    margin-top: -80px;
+    margin-top: 0px;
     }
 
 #vag{
@@ -400,4 +409,24 @@ footer{
     width: 99.8%;
     border-color:black;
     margin-top: -160px;
+    }
+
+a.logmei:link{
+    text-decoration: none;
+    color: darkred;
+    }
+    
+a.logmei:visited{
+    text-decoration:none;
+    color:darkred;
+    }
+        
+a.logmei:hover{
+    text-decoration:none;
+    color:darkred;
+    }
+        
+a.logmei:active{
+    text-decoration:none;
+    color:darkred;
     }
