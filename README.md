@@ -12,10 +12,11 @@ O site e a empresa foram feitos com o intuito de que eu(Lucas de Lima) aprenda m
  
 Foi feito um link no banco de dados com cadastro e login, necessários para baixar o software da Web Security, sem o registro no banco só será possível resgatar informações como missão,visão e valores da empresa, informações do software, contatos e visualização de vagas disponíveis na organização.
 
-O backend foi feito com php puro sem utilização de nenhum framework foram implantadas regras para o cpf(aceitando somente cpfs válidos) de acordo com uma operação aritmética, controle de email com os filtros do próprio PHP, e regras para a senha como permitir o mínimo de 6 caracteres na senha.
+O backend foi feito com php puro sem utilização de nenhum framework. Foi implantado controle de email com os filtros do próprio PHP.
 Ainda haverá várias atualizações no projeto como um todo(Principalmente no backend). 
 
 A parte do front foi feita com html e css puros sem utilização de nenhum framework, no futuro estarei acrescentando o javascript para dar mais dinamismo no frontend, mas no momento ainda estou estudando esta tecnologia.
+O html foi feito com carinho e quero sempre poder melhora-lo,atualmente conta com a tela principal pronta e a de login,estou trabalhando na parte privada que é onde o usuário estrá quando logar em sua conta para baixar o software e/ou se candidatar às vagas de emprego, que é outra parte que quero fazer e estou pensando com carinho em como fazer da melhor forma.
 
 # Imagens
 
@@ -35,3 +36,4 @@ A parte do front foi feita com html e css puros sem utilização de nenhum frame
 
 ![Capturar2](https://user-images.githubusercontent.com/60528933/78597960-c8214200-7824-11ea-8837-8396bc5433f7.PNG)
 
+###Em breve Novas Informações.
