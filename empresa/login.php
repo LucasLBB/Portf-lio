@@ -25,10 +25,6 @@ if ($row > 0){
     exit();
 }
 else{ 
-<<<<<<< HEAD
     header('Location:loginht.php');
-=======
-    header('Location:login.html');
->>>>>>> 940c707faa0b613c23cea08833f67e69220aa3ab
     exit();
 }
