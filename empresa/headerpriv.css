@@ -1,7 +1,6 @@
 .header {
     position: -webkit-sticky;
     margin-top: -8px;
-
     background-color: darkred;
 }
 
@@ -81,17 +80,13 @@ a.cont:active {
 }
 
 #logo {
-    margin-left: 72px;
+    margin-left: 45%;
     margin-top: -10px;
-    max-width: 200px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
 }
 
 .hed {
     border-color: black;
-    width: 100%;
+    width: 100.6%;
     margin-top: -18px;
     margin-left: -10px;
 }
@@ -127,4 +122,83 @@ iframe {
 body{
     margin: 0px;
     background-color: lightsteelblue;
+}
+
+.prin{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred;
+}
+
+.sub{
+    margin-left: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkred;
+}
+
+li{
+    margin-left: 150px;
+}
+
+a.download:link {
+    margin-left: 190px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20pt;
+    text-decoration: none;
+    color: darkred;
+}
+
+a.download:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.download:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.download:active {
+    text-decoration: none;
+    color: darkred;
+}
+
+.labeleng{
+    margin-left: 162px;
+    margin-top: -155px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.labelins{
+    margin-left: 162px;
+    margin-top: -155px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+a.inscreva:link {
+    margin-left: 257px;
+    margin-top: -155px;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: darkred;
+}
+
+a.inscreva:visited {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.inscreva:hover {
+    text-decoration: none;
+    color: darkred;
+}
+
+a.inscreva:active {
+    text-decoration: none;
+    color: darkred;
 }
