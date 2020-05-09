@@ -36,6 +36,11 @@ Para cadastro necessita de informações como nome,e-mail,senha,estado e data de
 
 ![Capturar](https://user-images.githubusercontent.com/60528933/81483609-d4c6fa80-9215-11ea-9c08-f5492c19bab1.PNG)
 
+![Capturar2](https://user-images.githubusercontent.com/60528933/81483625-0049e500-9216-11ea-88ea-d1ca76cb2770.PNG)
+
+![Capturar3](https://user-images.githubusercontent.com/60528933/81483628-02ac3f00-9216-11ea-936f-f6c937b71386.PNG)
+
+
 O banco de dados é o mysql, utilizando o xampp, foi utilizado também VS CODE,  HTML5, javascript, PHP 7 e CSS3. 
 
 O Projeto está quase no final,quero melhorar a organização das pastas, enquanto isso agradeço à você, sim você mesmo que acompanhou a leitura até aqui.
