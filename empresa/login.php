@@ -25,6 +25,9 @@ if ($row > 0){
     exit();
 }
 else{ 
-    header('Location:loginht.php');
+    echo '<script type="text/javascript">
+            alert("Erro ao logar, e-mail ou senha inválidos!");
+            window.history.go(-1);
+          </script>';
     exit();
 }
