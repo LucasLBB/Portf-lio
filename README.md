@@ -8,15 +8,11 @@ O site e a empresa foram feitos com o intuito de que eu(Lucas de Lima) aprenda m
 
 ### O Projeto
 
- As pastas "Projetohtml" e "empresa" estão interligadas criei essas duas pastas para ter uma organização melhor. Primeiramente foquei em construir o backend(php), pois é onde possuo maior conhecimento. 
+ As pastas "Projetohtml" e "empresa" estão interligadas, criei essas duas pastas para ter uma organização melhor. Primeiramente foquei em construir o backend(php), pois é onde possuo maior conhecimento. 
  
 Foi feito um link no banco de dados com cadastro e login, necessários para baixar o software da Web Security, sem o registro no banco só será possível resgatar informações como missão,visão e valores da empresa, informações do software, contatos e visualização de vagas disponíveis na organização.
 
-O backend foi feito com php puro sem utilização de nenhum framework. Foi implantado controle de email com os filtros do próprio PHP.
-Ainda haverá várias atualizações no projeto como um todo(Principalmente no backend). 
-
-A parte do front foi feita com html e css puros sem utilização de nenhum framework, no futuro estarei acrescentando o javascript para dar mais dinamismo no frontend, mas no momento ainda estou estudando esta tecnologia.
-O html foi feito com carinho e quero sempre poder melhora-lo,atualmente conta com a tela principal pronta e a de login,estou trabalhando na parte privada que é onde o usuário estrá quando logar em sua conta para baixar o software e/ou se candidatar às vagas de emprego, que é outra parte que quero fazer e estou pensando com carinho em como fazer da melhor forma.
+Para cadastro necessita de informações como nome,e-mail,senha,estado e data de nascimento. O login precisa do e-mail e senha, as mensagens de sucesso ou falha seja no cadastro ou login são feitas com javascript.
 
 # Imagens
 
@@ -36,4 +32,10 @@ O html foi feito com carinho e quero sempre poder melhora-lo,atualmente conta co
 
 ![Capturar2](https://user-images.githubusercontent.com/60528933/78597960-c8214200-7824-11ea-8837-8396bc5433f7.PNG)
 
-### Em breve Novas Informações.
+O banco de dados é o mysql, utilizando o xampp, foi utilizado também VS CODE,  HTML5, javascript, PHP 7 e CSS3. 
+
+O Projeto está quase no final,quero melhorar a organização das pastas, enquanto isso agradeço à você, sim você mesmo que acompanhou a leitura até aqui.
+
+Este é o meu primeiro projeto que posto aqui no github, é básico,mas é feito com todo carinho.
+
+Até Mais.
