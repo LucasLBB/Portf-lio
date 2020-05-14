@@ -1,0 +1,58 @@
+.header {
+    position: -webkit-sticky;
+    margin: -auto;
+    width: 100%;
+    background-color: darkred;
+}
+
+#logo {
+    margin-left: 45%;
+    margin-top: -10px;
+}
+
+.hed {
+    border-color: black;
+    width: 100%;
+    margin-top: -18px;
+    margin-left: -10px;
+}
+
+iframe{
+    border-width: 0px;
+    border-style: none;
+    border-color: white;
+    border-image: none;
+    width: 100%;
+}
+
+body{
+    margin: 0px;
+    background-color: lightsteelblue;
+}
+
+h1{
+    margin-left: 610px;
+    font-size: 300%;
+    margin-top: 50px;
+}
+
+.email{
+    position: absolute;
+    margin-left: 565px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.senha{
+    position: absolute;
+    margin-left: 565px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.enviar{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
