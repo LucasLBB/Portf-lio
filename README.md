@@ -1,4 +1,4 @@
-# Portf-lio
+# Primeiro Grande Projeto
 
 Criei este repositório para exibir um site que é de uma empresa fictícia chamada Web Security, o foco dela é em segurança de software, com isso a empresa possui um programa(anti-vírus), que disponibiliza em seu site de forma gratuita.
 
@@ -43,8 +43,6 @@ Para cadastro necessita de informações como nome,e-mail,senha,estado e data de
 
 O banco de dados é o mysql, utilizando o xampp, foi utilizado também VS CODE,  HTML5, javascript, PHP 7 e CSS3. 
 
-O Projeto está quase no final,quero melhorar a organização das pastas, enquanto isso agradeço à você, sim você mesmo que acompanhou a leitura até aqui.
-
-Este é o meu primeiro projeto que posto aqui no github, é básico,mas é feito com todo carinho.
+Este é o meu primeiro projeto que posto aqui no github, é básico, mas é feito com todo carinho.
 
 Até Mais.
